@@ -1,7 +1,8 @@
+$dark-gray2-with-opacity: rgba($dark-gray2, 0.5);
+
 body[data-theme="dark"] {
   color: $dark-text-base-color;
-  background-color: $dark-black;
-
+  background-color: $dark-gray2;
   // Heading
   h1,
   h2,

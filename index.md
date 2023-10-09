@@ -3,9 +3,8 @@ title: About
 layout: page
 comments: false
 ---
-# Miłosz Herka  
-### MSc in Genetics | BEng in Biotechnology
 
+{% include author.html %}
 I am a fast-learning and flexible student with practical and professional experience, and team-work skills. I combine human rights activism and an interest in biosciences. Particularly interested in applications of genetic engineering in precision medicine, rare genetic diseases and human genetics. Privately, an amateur writer and fantasy enthusiast.  
 **Age:** 24y **Nationality:** Polish
 

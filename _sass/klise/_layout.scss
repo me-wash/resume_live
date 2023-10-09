@@ -181,8 +181,8 @@
 
 // Author
 .author {
-  margin-top: 6.3rem;
-  margin-bottom: 7.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
 
   @include media-query($on-mobile) {
@@ -190,8 +190,8 @@
   }
 
   .author-avatar {
-    width: 70px;
-    height: 70px;
+    width: 200px;
+    height: 200x;
     border-radius: 100%;
     user-select: none;
     background-color: $black;
@@ -349,6 +349,7 @@
     padding: 10px 10px 10px 35px;
     color: $text-base-color;
     -webkit-appearance: none;
+    appearance: none;
     font-size: $base-font-size;
     background-color: rgba(128, 128, 128, 0.1);
     border: 1px solid rgba(128, 128, 128, 0.1);

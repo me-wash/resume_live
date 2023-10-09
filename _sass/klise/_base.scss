@@ -47,7 +47,15 @@ body {
   overflow-x: hidden;
   position: relative;
   color: $text-base-color;
+  background-image: url('/assets/img/DNA.svg');
   background-color: $white;
+  background-size: 50%, cover;
+  background-repeat: no-repeat;
+  background-position: center left, top;
+  background-attachment: fixed;
+  text-align: justify;
+  object-position: center;
+  justify-items: center;
   font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
