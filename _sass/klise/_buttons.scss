@@ -1,0 +1,18 @@
+
+// Define button styles as SCSS variables
+$button-background-color: #007bff;
+$button-text-color: #ffffff;
+$button-padding: 10px 20px;
+$button-border-radius: 5px;
+
+// Create a mixin for the button style
+@mixin button {
+  background-color: $button-background-color;
+  color: $button-text-color;
+  padding: $button-padding;
+  border-radius: $button-border-radius;
+  text-decoration: none;
+  &:hover {
+    background-color: darken($button-background-color, 10%);
+  }
+}
