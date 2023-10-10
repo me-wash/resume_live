@@ -16,3 +16,7 @@ $button-border-radius: 5px;
     background-color: darken($button-background-color, 10%);
   }
 }
+
+.button {
+  @include button; // Apply the button mixin
+}
