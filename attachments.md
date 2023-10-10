@@ -5,5 +5,6 @@ layout: page
 comments: false
 ---
 
-<a class="button">Click me</a>
+<a href="#" class="my-button">Click me</a>
+
 
