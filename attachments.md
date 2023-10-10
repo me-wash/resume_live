@@ -1,5 +1,6 @@
 ---
 title: Attachments
-layout: page
 permalink: /attachments/
+layout: page
+comments: false
 ---
