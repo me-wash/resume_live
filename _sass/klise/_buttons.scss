@@ -1,22 +1,25 @@
-
-// Define button styles as SCSS variables
-$button-background-color: #007bff;
-$button-text-color: #ffffff;
-$button-padding: 10px 20px;
-$button-border-radius: 5px;
-
-// Create a mixin for the button style
 @mixin button {
-  background-color: $button-background-color;
-  color: $button-text-color;
-  padding: $button-padding;
-  border-radius: $button-border-radius;
+  background-color: null;
+  border-color: $smoke;
+  border: 2px solid $smoke;
+  color: $smoke;
+  padding: 5px 20px;
+  width: auto;
+  border-radius: 10px;
   text-decoration: none;
+  margin: 5px;
   &:hover {
-    background-color: darken($button-background-color, 10%);
+    background-color: $smoke;
+    color: $dark-gray2;
   }
 }
-
 .button {
-  @include button; // Apply the button mixin
+  @include button;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
