@@ -19,8 +19,8 @@ comments: false
 
 # Experience
 ---
-## 1. Junior Biotechnologist
-**[Mabion S.A.](https://www.mabion.eu/)** (Poland) | 07-09.2022 & 07-09.2023
+## 1. Junior Intern Biotechnologist
+**[Mabion S.A.](https://www.mabion.eu/)** (Poland) | 07-09.2021 & 07-09.2022
 - Full time internship
 - Aid in routine tasks of the R&D laboratory
 - Culturing and development of mammalian, insect and bac-terial cells for upscaling
