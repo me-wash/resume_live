@@ -8,8 +8,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#fff" />
   <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
   <title>
-    {% if page.title %}{{ page.title | escape }} - {{ site.title }}{% else %}{{
-    site.title | escape }}{% endif %}
+    {% if site.title %}{{ site.title | escape }} - {{ page.title }}{% else %}{{
+    page.title | escape }}{% endif %}
   </title>
   <link
     rel="alternate"

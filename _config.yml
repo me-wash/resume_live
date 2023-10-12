@@ -1,5 +1,5 @@
 # Site settings
-title: MH Resume # site title
+title: MH # site title
 lang: en-US # default lang
 timezone: Europe/Madrid # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -10,7 +10,7 @@ author:
   name: Miłosz Herka # author name
   bio: >- # tell to the world
     I am a fast-learning and flexible student with practical and professional experience, and team-work skills. I combine human rights activism and an interest in biosciences. Particularly interested in applications of genetic engineering in precision medicine, rare genetic diseases and human genetics. Privately, an amateur writer and fantasy enthusiast.
-  username: username # general username
+  username: me.wash # general username
   linkedin: m-herka # linkedin username
   facebook: mee.waash # facebook username
   email: m.herka@proton.me # email adress
