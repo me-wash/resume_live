@@ -101,8 +101,7 @@ b {
 // horizontal rule
 hr {
   border-bottom: 0;
-  border-style: solid;
-  border-color: $light;
+  border: 1px solid $gray;
 }
 
 // kbd tag

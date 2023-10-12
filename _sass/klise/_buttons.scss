@@ -1,16 +1,13 @@
 @mixin button {
   background-color: null;
-  border-color: $smoke;
-  border: 2px solid $smoke;
-  color: $smoke;
+  border: 2px solid $gray;
+  color: $gray;
   padding: 5px 20px;
-  width: auto;
   border-radius: 10px;
   text-decoration: none;
   margin: 5px;
   &:hover {
-    background-color: $smoke;
-    color: $dark-gray2;
+    background-color: $gray;
   }
 }
 .button {
