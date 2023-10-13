@@ -2,33 +2,6 @@
   <a class="footer_item" href="https://www.facebook.com/mee.waash"><i class="fa-brands fa-square-facebook"></i> Facebook.</a>
   <a class="footer_item" href="https://www.linkedin.com/in/m-herka/"><i class="fa-brands fa-linkedin"></i> LinkedIn.</a>
   <a class="footer_item" href="mailto:m.herka@proton.me"><i class="fa-solid fa-envelope"></i> E-mail.</a>
-  <a class="footer_item" href="tel:+34647835028"><i class="fa-solid fa-mobile"></i> Tel.</a>
+  <a class="footer_item" href="tel:+34647835028"><i class="fa-solid fa-phone"></i> Tel.</a>
    <a class="footer_copyright">&copy; {{ site.time | date: "%Y" }}</a>
 </footer>
-<script src="/assets/js/main.js" defer="defer"></script>
-{%- if site.google_analytics -%}
-  <!-- Google tag (gtag.js) -->
-  <script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "{{ site.google_analytics }}");
-  </script>
-{%- endif -%}
-{%- if page.url == '/archive/' -%}
-  <script src="/assets/js/search.min.js"></script>
-  <script>
-    var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('search-results'),
-      json: '/assets/search.json',
-    });
-  </script>
-{%- endif -%}

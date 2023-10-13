@@ -110,8 +110,9 @@
 
   > p {
     margin: 0;
-    padding-top: $spacing-full - 15;
+    padding-top: 0;
     padding-bottom: $spacing-full - 15;
+    text-align: justify;
   }
 
   ul.task-list {
@@ -139,8 +140,8 @@
   h6 {
     color: $black;
     font-weight: $bold-weight;
-    margin-top: $spacing-full;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     &:hover {
       .anchor-head {
@@ -174,8 +175,6 @@
 
   h3 {
     @include relative-font-size(1.25);
-    border-bottom: 1px solid $light;
-    padding-bottom: 4px;
   }
 
   h4 {

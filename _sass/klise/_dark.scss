@@ -13,6 +13,12 @@ body[data-theme="dark"] {
     color: $dark-white;
   }
 
+  
+.fa-brands
+.fa-solid
+.fa-regular {
+  color: $dark-text-base-color
+}
   // Table
   table {
     thead {

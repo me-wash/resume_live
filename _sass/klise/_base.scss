@@ -54,8 +54,6 @@ body {
   background-position: center left, top;
   background-attachment: fixed;
   text-align: justify;
-  object-position: center;
-  justify-items: center;
   font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -70,6 +68,12 @@ body {
     background-size: 150%, cover;
     background-position: top center, top;
   }
+}
+
+.fa-brands
+.fa-solid
+.fa-regular {
+  color: $text-base-color
 }
 
 // Set `margin-bottom` to maintain vertical rhythm
@@ -87,8 +91,8 @@ ol,
 dl,
 figure,
 %vertical-rhythm {
-  margin-top: $spacing-full - 20;
-  margin-bottom: $spacing-full - 20;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 // strong | bold
@@ -102,6 +106,7 @@ b {
 hr {
   border-bottom: 0;
   border: 1px solid $gray;
+  margin-bottom: 10px;
 }
 
 // kbd tag
@@ -127,6 +132,7 @@ img {
   vertical-align: middle;
   -webkit-user-drag: none;
   margin: 0 auto;
+  margin-bottom: 20px;
   text-align: center;
 }
 
